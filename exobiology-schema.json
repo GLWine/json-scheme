@@ -1,0 +1,35 @@
+{
+  "schema": "https://github.com/tuo-username/nome-del-tuo-repo/raw/main/exobiology-schema.json",
+  "exobiology": {
+    "biological": [
+      {
+        "genus": "string",
+        "species": [
+          {
+            "nome": "string",
+            "valueCr": "integer",
+            "atmosfere": {
+              "gas": ["string"],
+              "source": "string"
+            },
+            "temperature(K)": {
+              "min": "integer",
+              "max": "integer",
+              "source": "string"
+            },
+            "gravity(g)": {
+              "min": "float",
+              "max": "float",
+              "source": "string"
+            },
+            "pressure(atm)": {
+              "min": "float",
+              "max": "float",
+              "source": "string"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
